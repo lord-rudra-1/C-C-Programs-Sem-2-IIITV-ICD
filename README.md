@@ -4,9 +4,8 @@ Welcome to the repository containing C/C++ programs for the second semester at I
 The repository is organized into the following directories:
 <br>
 1. Lab Sessions: Contains programs written during lab sessions.
-2. Assignments: Includes the code for assignments given throughout the semester.
-3. Tutorials: Features tutorial examples and practice problems.
-4. Other
+2. Tutorials: Features tutorial examples and practice problems.
+3. Other
 ## Lab Sessions :
 
 ### 1. Student Linked List Program :
@@ -49,3 +48,10 @@ This C program demonstrates the creation and manipulation of singly and circular
 This C program provides an efficient way to manipulate polynomials represented as linked lists. It includes functionalities for displaying polynomials, adding polynomials, and managing memory with an auxiliary list to reuse nodes. The program handles operations such as adding polynomials by combining like terms and efficiently managing memory allocation and deallocation using an auxiliary list. This implementation ensures that polynomials are manipulated with minimal memory overhead and optimal performance.
 ### 5. Finding the ith Smallest Element and QuickSort Implementation in C :
 This C program demonstrates the implementation of the QuickSort algorithm and the procedure to find the ith smallest element in an array. QuickSort is a highly efficient sorting algorithm that uses the divide-and-conquer strategy. The program includes functions for sorting the array, partitioning the array around a pivot, and finding the ith smallest element using a modified QuickSort approach. It also includes a function to display the array.
+## Other :
+### 1. Fibonacci Sequence Using Stack in C++
+This C++ program demonstrates a non-traditional way of calculating Fibonacci numbers using a stack to track the recursive calls. The program uses a global stack to simulate the function call stack and visualize the process of calculating the Fibonacci sequence. Each call to the Fibonacci function pushes the current value onto the stack, and each return from the function pops the value off the stack. The stack is displayed at each step to show the state of the recursive calls.
+### 2. Checking Balanced Parentheses Using Stack in C :
+This C program checks if an input expression has balanced parentheses using a stack implemented with a linked list. Each time an opening parenthesis '(' is encountered, it is pushed onto the stack. When a closing parenthesis ')' is encountered, the program pops the top of the stack. If the stack is empty at the end of the expression, the parentheses are balanced; otherwise, they are not.
+### 3. Disjoint Set Data Structure in C :
+This C program demonstrates the implementation of a Disjoint Set Data Structure, also known as Union-Find. It provides functionalities for creating sets, finding sets, and performing union operations on sets.
